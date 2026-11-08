@@ -593,7 +593,7 @@
     text-align: center;
   }
   .contact-card {
-    max-width: 600px; margin: 3rem auto 0;
+    max-width: 680px; margin: 3rem auto 0;
     padding: 3rem;
     background: var(--card-bg);
     border: 1px solid var(--border);
@@ -602,8 +602,8 @@
   }
   .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 2rem 0; }
   .c-link {
-    display: flex; align-items: center; gap: 0.65rem;
-    padding: 0.85rem 1rem;
+    display: flex; align-items: center; gap: 0.75rem;
+    padding: 0.9rem 1.1rem;
     background: rgba(0,212,255,0.05);
     border: 1px solid rgba(0,212,255,0.15);
     border-radius: 8px;
@@ -611,11 +611,12 @@
     color: var(--text);
     font-size: 0.82rem;
     transition: all 0.2s;
+    text-align: left;
   }
   .c-link:hover { background: rgba(0,212,255,0.1); border-color: var(--cyan); color: var(--cyan); transform: translateY(-2px); }
-  .c-link svg { width: 16px; height: 16px; flex-shrink: 0; color: var(--cyan); }
+  .c-link svg { width: 18px; height: 18px; flex-shrink: 0; color: var(--cyan); }
   .c-link-label { font-size: 0.65rem; color: var(--muted); display: block; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 2px; }
-  .c-link-value { font-size: 0.8rem; color: var(--offwhite); }
+  .c-link-value { font-size: 0.82rem; color: var(--offwhite); word-break: break-all; }
 
   .contact-note { font-size: 0.82rem; color: var(--muted); margin-top: 1.5rem; }
 
@@ -677,7 +678,7 @@
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Work &amp; Systems</a></li>
     <li><a href="#certifications">Certs</a></li>
-    <li><a href="#contact" class="nav-cta">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Connect</a></li>
   </ul>
   <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
     <span></span><span></span><span></span>
@@ -688,20 +689,20 @@
 <section id="hero">
   <div class="hero-inner">
     <div class="hero-content">
-      <div class="hero-tag">IT Operations &amp; Maintenance</div>
+      <div class="hero-tag">IT Infrastructure · Ops &amp; Maintenance</div>
       <h1 class="hero-name">Arya Asa<br><span class="cyan">Fikarda</span></h1>
       <p class="hero-role"><strong>IT Infrastructure Specialist</strong> — Operations &amp; Maintenance</p>
       <p class="hero-desc">
-        Maintaining high-availability IT infrastructure, network stability, and dependable daily operations in the banking sector. Combining hands-on operational maintenance with a solid software engineering background.
+        Maintaining high system availability, resilient network operations, and rigorous data protection routines in the banking sector (BPR). Leveraging a disciplined applied computer science foundation to keep mission-critical branch workflows online without interruption.
       </p>
       <div class="hero-stats">
         <div class="stat">
-          <div class="stat-num">99%+</div>
-          <div class="stat-label">System Availability</div>
+          <div class="stat-num">99.9%</div>
+          <div class="stat-label">Availability Target</div>
         </div>
         <div class="stat">
           <div class="stat-num">BPR</div>
-          <div class="stat-label">Banking Operations</div>
+          <div class="stat-label">Banking Sector</div>
         </div>
         <div class="stat">
           <div class="stat-num">BNSP</div>
@@ -713,8 +714,8 @@
         </div>
       </div>
       <div class="hero-actions">
-        <a href="#experience" class="btn-primary">View Experience</a>
-        <a href="#contact" class="btn-outline">Get in Touch</a>
+        <a href="#experience" class="btn-primary">View Track Record</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
       </div>
     </div>
 
@@ -727,7 +728,7 @@
         </div>
         <div class="badge-float bf-1"><span class="dot"></span>Infra &amp; Maintenance</div>
         <div class="badge-float bf-2"><span class="dot"></span>BNSP Certified</div>
-        <div class="badge-float bf-3"><span class="dot"></span>Banking Sector</div>
+        <div class="badge-float bf-3"><span class="dot"></span>Banking Operations</div>
       </div>
     </div>
   </div>
@@ -745,21 +746,21 @@
       <div class="about-left reveal">
         <div class="section-header">
           <div class="section-label">About Me</div>
-          <h2 class="section-title">Ensuring reliable <span class="accent">IT infrastructure</span> &amp; uptime</h2>
+          <h2 class="section-title">Engineered for <span class="accent">uptime</span>, continuity, &amp; stability</h2>
         </div>
         <p class="about-text">
-          I am an IT professional specializing in <strong style="color:var(--offwhite)">IT Infrastructure, Operations &amp; Maintenance</strong> within the banking industry (BPR). With an applied computer science degree (S.Tr.Kom), I bring a structured engineering mindset to managing operational stability, hardware/software reliability, and network connectivity.
+          I manage and maintain IT infrastructure in the private banking sector (BPR), ensuring high operational availability across servers, local branch networks, and end-user hardware. My approach is grounded in proactive maintenance, disciplined backup verification, and rapid incident isolation.
         </p>
         <p class="about-text" style="margin-top:1rem">
-          My daily focus centers on preventive system maintenance, scheduled backup routines, system diagnostics, and rapid incident resolution to ensure zero disruption to core financial workflows. Having previously managed cross-functional technical teams, I bridge technical execution with operational compliance seamlessly.
+          Holding a Bachelor of Applied Computer Science (S.Tr.Kom) and national competency certification from BNSP, I combine practical systems administration with a software engineering background. This allows me to diagnose root causes faster, automate repetitive operational routines, and communicate effectively across operational and technical levels.
         </p>
         <div class="trait-list">
           <span class="trait">Preventive Maintenance</span>
           <span class="trait">High Availability</span>
-          <span class="trait">Incident Troubleshooting</span>
-          <span class="trait">Backup &amp; Recovery</span>
+          <span class="trait">Backup &amp; Disaster Recovery</span>
+          <span class="trait">Incident Triage</span>
           <span class="trait">Network Reliability</span>
-          <span class="trait">Banking Operations</span>
+          <span class="trait">Banking Compliance Mindset</span>
         </div>
       </div>
 
@@ -770,20 +771,20 @@
             <div class="info-value">Banking IT (BPR)</div>
           </div>
           <div class="info-item">
-            <div class="info-label">Status</div>
-            <div class="info-value" style="color:var(--mint)">● Active Professional</div>
+            <div class="info-label">Role</div>
+            <div class="info-value" style="color:var(--mint)">● IT Infrastructure</div>
           </div>
           <div class="info-item">
-            <div class="info-label">Focus Area</div>
+            <div class="info-label">Core Focus</div>
             <div class="info-value">Ops &amp; Maintenance</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Degree</div>
+            <div class="info-value">S.Tr.Kom (PCR)</div>
           </div>
           <div class="info-item">
             <div class="info-label">Certification</div>
             <div class="info-value">BNSP Software Dev</div>
-          </div>
-          <div class="info-item">
-            <div class="info-label">Education</div>
-            <div class="info-value">S.Tr.Kom (PCR)</div>
           </div>
           <div class="info-item">
             <div class="info-label">Location</div>
@@ -796,17 +797,17 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
             aryaasafikarda08@gmail.com
           </a>
-          <a href="https://linkedin.com/in/arya-asa-fikarda" target="_blank" class="contact-link">
+          <a href="https://linkedin.com/in/arya-asa-fikarda" target="_blank" rel="noopener" class="contact-link">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
             linkedin.com/in/arya-asa-fikarda
           </a>
-          <a href="https://github.com/arya-asa-fikarda" target="_blank" class="contact-link">
+          <a href="https://github.com/arya-asa-fikarda" target="_blank" rel="noopener" class="contact-link">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
             github.com/arya-asa-fikarda
           </a>
-          <a href="tel:+628228926-8142" class="contact-link">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 13 19.79 19.79 0 0 1 1 4.18 2 2 0 0 1 2.99 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17z"/></svg>
-            +62 822-8926-8142
+          <a href="https://arya-asa-fikarda.github.io" target="_blank" rel="noopener" class="contact-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            arya-asa-fikarda.github.io
           </a>
         </div>
       </div>
@@ -819,8 +820,8 @@
   <div class="container">
     <div class="section-header reveal">
       <div class="section-label">Technical Competencies</div>
-      <h2 class="section-title">Core <span class="accent">Capabilities</span></h2>
-      <p class="section-desc">Key technical domains spanning IT infrastructure maintenance, networking, systems reliability, and operational continuity.</p>
+      <h2 class="section-title">Infrastructure &amp; <span class="accent">Operations Stack</span></h2>
+      <p class="section-desc">Practical competencies focused on hardware reliability, server maintenance, network security, and business continuity.</p>
     </div>
 
     <div class="skills-grid">
@@ -831,6 +832,7 @@
           <span class="skill-tag">Windows Server</span>
           <span class="skill-tag">Linux / Ubuntu</span>
           <span class="skill-tag">Active Directory</span>
+          <span class="skill-tag">User Access Control</span>
           <span class="skill-tag">Virtualization</span>
         </div>
       </div>
@@ -838,10 +840,11 @@
         <div class="skill-icon" style="background:rgba(0,245,204,0.1)">🌐</div>
         <div class="skill-name">Network &amp; Security</div>
         <div class="skill-tags">
-          <span class="skill-tag">LAN / WAN / VLAN</span>
+          <span class="skill-tag">LAN / WAN Topology</span>
+          <span class="skill-tag">VLAN Segmentation</span>
           <span class="skill-tag">Routing &amp; Switching</span>
-          <span class="skill-tag">VPN &amp; Firewalls</span>
-          <span class="skill-tag">MikroTik Basics</span>
+          <span class="skill-tag">VPN Tunnels</span>
+          <span class="skill-tag">Firewall Rules</span>
         </div>
       </div>
       <div class="skill-card reveal" style="transition-delay:0.15s">
@@ -851,17 +854,19 @@
           <span class="skill-tag">Preventive Maintenance</span>
           <span class="skill-tag">Hardware Diagnostics</span>
           <span class="skill-tag">OS Deployment</span>
-          <span class="skill-tag">Peripheral Support</span>
+          <span class="skill-tag">Peripheral Servicing</span>
+          <span class="skill-tag">UPS / Power Health</span>
         </div>
       </div>
       <div class="skill-card reveal" style="transition-delay:0.2s">
         <div class="skill-icon" style="background:rgba(239,71,111,0.1)">🗄️</div>
-        <div class="skill-name">Data &amp; Continuity</div>
+        <div class="skill-name">Backup &amp; Disaster Recovery</div>
         <div class="skill-tags">
-          <span class="skill-tag">MySQL / DB Maintenance</span>
           <span class="skill-tag">Scheduled Backups</span>
-          <span class="skill-tag">Disaster Recovery</span>
-          <span class="skill-tag">Integrity Checks</span>
+          <span class="skill-tag">MySQL / DB Dumps</span>
+          <span class="skill-tag">Storage Redundancy</span>
+          <span class="skill-tag">Integrity Verification</span>
+          <span class="skill-tag">RPO / RTO Awareness</span>
         </div>
       </div>
       <div class="skill-card reveal" style="transition-delay:0.25s">
@@ -869,19 +874,21 @@
         <div class="skill-name">Scripting &amp; Automation</div>
         <div class="skill-tags">
           <span class="skill-tag">Bash / Shell</span>
+          <span class="skill-tag">PowerShell / Batch</span>
           <span class="skill-tag">PHP / Laravel</span>
-          <span class="skill-tag">REST API Integration</span>
-          <span class="skill-tag">Git Versioning</span>
+          <span class="skill-tag">REST API Diagnostics</span>
+          <span class="skill-tag">Git</span>
         </div>
       </div>
       <div class="skill-card reveal" style="transition-delay:0.3s">
         <div class="skill-icon" style="background:rgba(0,212,255,0.08)">📊</div>
-        <div class="skill-name">Monitoring &amp; ITSM</div>
+        <div class="skill-name">Monitoring &amp; Incident Triage</div>
         <div class="skill-tags">
-          <span class="skill-tag">Incident Resolution</span>
-          <span class="skill-tag">Log Monitoring</span>
-          <span class="skill-tag">IT Helpdesk Support</span>
-          <span class="skill-tag">Service Continuity</span>
+          <span class="skill-tag">Event Viewer &amp; Logs</span>
+          <span class="skill-tag">Network Diagnostics</span>
+          <span class="skill-tag">Root Cause Analysis</span>
+          <span class="skill-tag">Helpdesk Support</span>
+          <span class="skill-tag">SLA Tracking</span>
         </div>
       </div>
     </div>
@@ -907,28 +914,29 @@
           <div class="tl-title">IT Infrastructure (Operations &amp; Maintenance)</div>
           <div class="tl-company">Private Banking Institution (BPR) <span>· Indonesia</span></div>
           <div class="tl-stack">
-            <span class="tl-stack-tag">IT Infrastructure</span><span class="tl-stack-tag">Server Maintenance</span><span class="tl-stack-tag">Network Operations</span><span class="tl-stack-tag">Backup Protocols</span><span class="tl-stack-tag">Incident Management</span>
+            <span class="tl-stack-tag">Server Maintenance</span><span class="tl-stack-tag">Network Operations</span><span class="tl-stack-tag">Backup Routines</span><span class="tl-stack-tag">Hardware Diagnostics</span><span class="tl-stack-tag">Incident Triage</span>
           </div>
           <ul class="tl-bullets">
-            <li>Perform daily operations, routine maintenance, and health monitoring across branch IT infrastructure, servers, and network devices to ensure uninterrupted banking service.</li>
-            <li>Execute regular data backup workflows, system integrity checks, and preventive maintenance on client endpoints and peripheral hardware.</li>
-            <li>Provide rapid first-line and second-line technical support for operational incidents, minimizing downtime and maintaining service continuity standards.</li>
+            <li>Oversee daily operational readiness and scheduled preventive maintenance across branch IT infrastructure, servers, and network endpoints to ensure zero downtime during banking hours.</li>
+            <li>Execute regular automated and manual backup cycles, monitor storage integrity, and verify recovery readiness in accordance with banking operational continuity guidelines.</li>
+            <li>Perform hardware diagnostics, workstation provisioning, and peripheral maintenance (passbook printers, document scanners, and branch client terminals).</li>
+            <li>Triage technical incidents rapidly, conducting root-cause diagnosis and providing hands-on troubleshooting to maintain service level targets.</li>
           </ul>
         </div>
       </div>
 
-      <!-- Lauwba Operations Coordinator -->
+      <!-- Lauwba COO Role -->
       <div class="timeline-item reveal">
         <div class="timeline-dot mint"></div>
         <div class="timeline-card">
           <div class="tl-meta">
             <span class="tl-period mint-tag">Nov 2025 – Mar 2026</span>
           </div>
-          <div class="tl-title">Operations Coordinator (COO-equivalent)</div>
+          <div class="tl-title">Operational Manager &amp; Chief Operating Officer (COO)</div>
           <div class="tl-company">PT Lauwba Techno Indonesia <span>· Sleman, Yogyakarta</span></div>
           <ul class="tl-bullets">
-            <li>Oversaw cross-functional technical operations, resource allocation, and team coordination between engineering and training divisions.</li>
-            <li>Streamlined standard operating procedures (SOPs) for project deliverables, improving operational efficiency and on-time release milestones.</li>
+            <li>Directed operational alignment between software engineering teams and technical training divisions to maintain timely project milestone delivery.</li>
+            <li>Streamlined standard operating procedures (SOPs) across internal workflows, mitigating operational bottlenecks and enhancing resource utilization.</li>
           </ul>
         </div>
       </div>
@@ -940,19 +948,19 @@
           <div class="tl-meta">
             <span class="tl-period" style="color:#A78BFA;background:rgba(167,139,250,0.08);border-color:rgba(167,139,250,0.2)">Jun 2025 – Mar 2026</span>
           </div>
-          <div class="tl-title">IT Trainer &amp; Fullstack Developer</div>
+          <div class="tl-title">Fullstack Developer &amp; IT Trainer</div>
           <div class="tl-company">PT Lauwba Techno Indonesia <span>· Sleman, Yogyakarta</span></div>
           <div class="tl-stack">
-            <span class="tl-stack-tag">Flutter</span><span class="tl-stack-tag">Laravel</span><span class="tl-stack-tag">REST API</span><span class="tl-stack-tag">MySQL</span><span class="tl-stack-tag">Git</span>
+            <span class="tl-stack-tag">Laravel</span><span class="tl-stack-tag">Flutter</span><span class="tl-stack-tag">REST API</span><span class="tl-stack-tag">MySQL</span><span class="tl-stack-tag">Git</span>
           </div>
           <ul class="tl-bullets">
-            <li>Delivered technical training modules for 20+ participants per cycle; established hands-on labs and documented training guidelines.</li>
-            <li>Engineered and deployed 3+ client application modules with rigorous manual &amp; API validation prior to production release.</li>
+            <li>Delivered structured technical curriculum across multiple cohorts; standardized developer onboarding guidelines and hands-on laboratory modules.</li>
+            <li>Engineered and deployed 3+ client web and mobile solutions under tight release deadlines with rigorous pre-deployment testing.</li>
           </ul>
         </div>
       </div>
 
-      <!-- Freelance Developer -->
+      <!-- Freelance Web Developer -->
       <div class="timeline-item reveal">
         <div class="timeline-dot gold"></div>
         <div class="timeline-card">
@@ -960,12 +968,12 @@
             <span class="tl-period gold-tag">Dec 2023 – Present</span>
           </div>
           <div class="tl-title">Freelance Web Developer</div>
-          <div class="tl-company">Remote, Indonesia</div>
+          <div class="tl-company">Remote <span>· Indonesia</span></div>
           <div class="tl-stack">
-            <span class="tl-stack-tag">Laravel</span><span class="tl-stack-tag">PHP</span><span class="tl-stack-tag">MySQL</span><span class="tl-stack-tag">REST API</span>
+            <span class="tl-stack-tag">PHP</span><span class="tl-stack-tag">Laravel</span><span class="tl-stack-tag">CodeIgniter</span><span class="tl-stack-tag">MySQL</span><span class="tl-stack-tag">Linux Hosting</span>
           </div>
           <ul class="tl-bullets">
-            <li>Developed customized web platforms for businesses — covering requirements gathering, database architecture, server deployment, and maintenance.</li>
+            <li>Built, deployed, and maintained custom web platforms and RESTful APIs, managing hosting configuration, database design, and post-launch maintenance.</li>
           </ul>
         </div>
       </div>
@@ -980,10 +988,10 @@
           <div class="tl-title">Programming Intern</div>
           <div class="tl-company">IHC PT Bakti Timah Medika <span>· Pangkal Pinang, Indonesia</span></div>
           <div class="tl-stack">
-            <span class="tl-stack-tag">CodeIgniter</span><span class="tl-stack-tag">PHP</span><span class="tl-stack-tag">MySQL</span>
+            <span class="tl-stack-tag">CodeIgniter</span><span class="tl-stack-tag">PHP</span><span class="tl-stack-tag">MySQL</span><span class="tl-stack-tag">Healthcare Ops</span>
           </div>
           <ul class="tl-bullets">
-            <li>Built a web-based Laboratory Information System (LIS) that digitized manual request workflows, accelerating administrative processing and minimizing entry discrepancies.</li>
+            <li>Developed a web-based Laboratory Information System (LIS) to replace manual paperwork between outpatient and clinical lab units, improving operational turnaround and accuracy.</li>
           </ul>
         </div>
       </div>
@@ -995,35 +1003,35 @@
 <section id="projects">
   <div class="container">
     <div class="section-header reveal">
-      <div class="section-label">Technical Track Record</div>
-      <h2 class="section-title">Built Systems &amp; <span class="accent">Implementations</span></h2>
-      <p class="section-desc">Key systems deployed end-to-end, reflecting engineering discipline that supports robust infrastructure maintenance.</p>
+      <div class="section-label">Systems &amp; Implementations</div>
+      <h2 class="section-title">Selected <span class="accent">Deliverables</span></h2>
+      <p class="section-desc">Production systems engineered and deployed end-to-end, demonstrating system architecture and operational deployment capabilities.</p>
     </div>
 
     <div class="projects-grid">
-      <!-- Featured School System -->
+      <!-- School System -->
       <div class="project-card project-featured reveal">
         <div class="project-inner">
           <div>
             <div class="proj-tag-row">
-              <span class="proj-badge badge-featured">Production</span>
-              <span class="proj-badge badge-client">Deployed</span>
+              <span class="proj-badge badge-featured">Production Deployed</span>
+              <span class="proj-badge badge-client">Institutional Client</span>
             </div>
-            <h3 class="proj-title">Academic Information &amp; Exam Portal</h3>
-            <p class="proj-stack">Laravel · MySQL · Production Web Server · RBAC</p>
-            <p class="proj-desc">Deployed complete academic portals for 2 institutions featuring online enrollment, administrative management, and automated online examination workflows.</p>
+            <h3 class="proj-title">Academic &amp; Online Examination System</h3>
+            <p class="proj-stack">Laravel · MySQL · Production Linux Server · RBAC</p>
+            <p class="proj-desc">Deployed full-scale administrative and online examination portals for 2 educational institutions, handling student enrollments, exam scoring, and multi-tier access control.</p>
           </div>
           <div>
             <ul class="proj-bullets">
-              <li>Role-based access control (RBAC) ensuring data segmentation</li>
-              <li>Database optimization for concurrent examination submissions</li>
-              <li>Server configuration, hosting deployment, and maintenance support</li>
+              <li>Role-based access control (RBAC) ensuring administrative security</li>
+              <li>Database indexing and query optimization for concurrent exam submissions</li>
+              <li>Complete server setup, automated backups, and deployment configuration</li>
             </ul>
             <div class="proj-stack-tags">
               <span class="proj-stack-tag">Laravel</span>
               <span class="proj-stack-tag">MySQL</span>
-              <span class="proj-stack-tag">PHP</span>
-              <span class="proj-stack-tag">Server Hosting</span>
+              <span class="proj-stack-tag">Web Server Ops</span>
+              <span class="proj-stack-tag">Hosting Deployment</span>
             </div>
           </div>
         </div>
@@ -1032,19 +1040,19 @@
       <!-- Psychology App -->
       <div class="project-card reveal" style="transition-delay:0.1s">
         <div class="proj-tag-row">
-          <span class="proj-badge badge-client">Client Deliverable</span>
+          <span class="proj-badge badge-client">Production System</span>
         </div>
         <h3 class="proj-title">Consultation Service Platform</h3>
-        <p class="proj-stack">Flutter · REST API · Backend Maintenance</p>
-        <p class="proj-desc">Delivered multi-client consultation applications backed by robust API interfaces, achieving zero critical production defects at release.</p>
+        <p class="proj-stack">Flutter · Laravel REST API · MySQL</p>
+        <p class="proj-desc">Delivered multi-client consultation mobile apps communicating with a centralized backend API, achieving verified stability across end-to-end user journeys.</p>
         <ul class="proj-bullets">
-          <li>End-to-end API service communication</li>
-          <li>System testing, bug isolation, and deployment checks</li>
+          <li>Resilient REST API architecture with error-handling middleware</li>
+          <li>System integration testing and pre-release QA validation</li>
         </ul>
         <div class="proj-stack-tags">
           <span class="proj-stack-tag">Flutter</span>
           <span class="proj-stack-tag">Laravel API</span>
-          <span class="proj-stack-tag">QA &amp; Diagnostics</span>
+          <span class="proj-stack-tag">API Diagnostics</span>
         </div>
       </div>
 
@@ -1053,16 +1061,16 @@
         <div class="proj-tag-row">
           <span class="proj-badge badge-intern">Hospital Internal System</span>
         </div>
-        <h3 class="proj-title">Laboratory Information System</h3>
-        <p class="proj-stack">CodeIgniter · MySQL · Workflow Automation</p>
-        <p class="proj-desc">Digitized internal healthcare operations between outpatient and laboratory units to safeguard record reliability and prevent data loss.</p>
+        <h3 class="proj-title">Laboratory Information System (LIS)</h3>
+        <p class="proj-stack">CodeIgniter · PHP · MySQL · Workflow Automation</p>
+        <p class="proj-desc">Digitized clinical laboratory requisition workflows at IHC PT Bakti Timah Medika to accelerate inter-department data delivery and avoid record loss.</p>
         <ul class="proj-bullets">
-          <li>Digital record tracking with access governance</li>
-          <li>Significant reduction in manual data-entry delays</li>
+          <li>Inter-unit workflow automation between outpatient and lab stations</li>
+          <li>Reliable database schema ensuring auditability of patient test logs</li>
         </ul>
         <div class="proj-stack-tags">
           <span class="proj-stack-tag">CodeIgniter</span>
-          <span class="proj-stack-tag">PHP</span>
+          <span class="proj-stack-tag">MySQL</span>
           <span class="proj-stack-tag">Database Ops</span>
         </div>
       </div>
@@ -1075,7 +1083,7 @@
   <div class="container">
     <div class="section-header reveal">
       <div class="section-label">Certifications</div>
-      <h2 class="section-title">Credentials &amp; <span class="accent">Competencies</span></h2>
+      <h2 class="section-title">Credentials &amp; <span class="accent">Validation</span></h2>
     </div>
     <div class="certs-grid">
       <div class="cert-card reveal" style="transition-delay:0.05s">
@@ -1093,7 +1101,7 @@
       <div class="cert-card reveal" style="transition-delay:0.15s">
         <span class="cert-year" style="background:rgba(255,209,102,0.12);color:#FFD166;border:1px solid rgba(255,209,102,0.25)">2020</span>
         <div class="cert-name">Web Programming Basics</div>
-        <div class="cert-sub" style="color:#FFD166">Web Systems &amp; Architecture</div>
+        <div class="cert-sub" style="color:#FFD166">Online Certification</div>
         <div class="cert-issuer">Dicoding Academy</div>
       </div>
     </div>
@@ -1105,17 +1113,17 @@
   <div class="container">
     <div class="section-header reveal">
       <div class="section-label">Education</div>
-      <h2 class="section-title">Academic <span class="accent">Background</span></h2>
+      <h2 class="section-title">Academic <span class="accent">Foundation</span></h2>
     </div>
     <div class="edu-card reveal">
       <div>
         <div class="edu-degree">D.IV Teknik Informatika (S.Tr.Kom)</div>
         <div class="edu-school">Politeknik Caltex Riau — Pekanbaru, Indonesia</div>
-        <div class="edu-year">Graduated October 2024</div>
+        <div class="edu-year">Graduated 2024 · Sarjana Terapan Komputer</div>
         <div style="margin-top:1rem;display:flex;flex-wrap:wrap;gap:0.5rem">
           <span style="padding:0.22rem 0.65rem;background:rgba(0,212,255,0.07);border:1px solid rgba(0,212,255,0.15);border-radius:4px;font-size:0.73rem;color:var(--gray)">Computer Science</span>
-          <span style="padding:0.22rem 0.65rem;background:rgba(0,212,255,0.07);border:1px solid rgba(0,212,255,0.15);border-radius:4px;font-size:0.73rem;color:var(--gray)">Network &amp; Systems</span>
-          <span style="padding:0.22rem 0.65rem;background:rgba(0,212,255,0.07);border:1px solid rgba(0,212,255,0.15);border-radius:4px;font-size:0.73rem;color:var(--gray)">Applied Science</span>
+          <span style="padding:0.22rem 0.65rem;background:rgba(0,212,255,0.07);border:1px solid rgba(0,212,255,0.15);border-radius:4px;font-size:0.73rem;color:var(--gray)">Networks &amp; Systems</span>
+          <span style="padding:0.22rem 0.65rem;background:rgba(0,212,255,0.07);border:1px solid rgba(0,212,255,0.15);border-radius:4px;font-size:0.73rem;color:var(--gray)">Software Engineering</span>
         </div>
       </div>
       <div class="gpa-badge">
@@ -1131,9 +1139,9 @@
 <section id="contact">
   <div class="container">
     <div class="reveal">
-      <div class="section-label" style="justify-content:center;display:flex">Contact</div>
+      <div class="section-label" style="justify-content:center;display:flex">Get in Touch</div>
       <h2 class="section-title" style="text-align:center">Let's <span class="accent">Connect</span></h2>
-      <p class="section-desc" style="text-align:center;margin:1rem auto 0">Open to professional discussions, technical collaborations, and networking.</p>
+      <p class="section-desc" style="text-align:center;margin:1rem auto 0">Reach out for technical consultations, infrastructure discussions, or professional inquiries.</p>
     </div>
     <div class="contact-card reveal">
       <div class="contact-grid">
@@ -1142,13 +1150,6 @@
           <div>
             <span class="c-link-label">Email</span>
             <span class="c-link-value">aryaasafikarda08@gmail.com</span>
-          </div>
-        </a>
-        <a href="tel:+6282289268142" class="c-link">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 13 19.79 19.79 0 0 1 1 4.18 2 2 0 0 1 2.99 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17z"/></svg>
-          <div>
-            <span class="c-link-label">Phone</span>
-            <span class="c-link-value">+62 822-8926-8142</span>
           </div>
         </a>
         <a href="https://linkedin.com/in/arya-asa-fikarda" target="_blank" rel="noopener" class="c-link">
@@ -1163,6 +1164,13 @@
           <div>
             <span class="c-link-label">GitHub</span>
             <span class="c-link-value">arya-asa-fikarda</span>
+          </div>
+        </a>
+        <a href="https://arya-asa-fikarda.github.io" target="_blank" rel="noopener" class="c-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <div>
+            <span class="c-link-label">Website</span>
+            <span class="c-link-value">arya-asa-fikarda.github.io</span>
           </div>
         </a>
       </div>
